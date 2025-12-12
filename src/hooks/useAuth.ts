@@ -107,7 +107,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   };
 
-  // Función de logout
+  // Función de logout - AQUÍ ESTABA EL ERROR
   const logout = async (): Promise<void> => {
     try {
       await apiClient.logout();
