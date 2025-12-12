@@ -1,6 +1,0 @@
-name = "psychiatric-frontend"
-compatibility_date = "2024-12-13"
-compatibility_flags = ["nodejs_compat"]
-
-[pages]
-pages_build_output_dir = ".vercel/output/static"
