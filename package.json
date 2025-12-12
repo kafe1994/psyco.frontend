@@ -35,7 +35,7 @@
     "chart.js": "^4.4.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "1.9.6",  // Versión compatible con Next.js 14.2.0
+    "@cloudflare/next-on-pages": "1.9.6",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
