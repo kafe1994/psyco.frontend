@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: ['mi-backend-api.liendoalejandro94.workers.dev'],
     unoptimized: true,  // IMPORTANTE para Cloudflare Pages
@@ -10,7 +7,6 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://mi-backend-api.liendoalejandro94.workers.dev/api',
   },
-  // Configuraciones para Cloudflare
   output: 'standalone',  // Recomendado para App Router en Cloudflare
   
   // Si tienes problemas durante el build
